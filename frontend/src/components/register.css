@@ -1,0 +1,41 @@
+.registerContainer {
+    position: absolute;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    padding: 40px;
+    transform: translateX(120%);
+}
+.registerContainer form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    transform: translateY(20px);
+   
+}
+.registerContainer input{
+height: 1px;
+border: none;
+padding: 10px;
+align-items: center;
+justify-content: center;
+padding-left: 20px;
+border-bottom: 1px;
+
+}
+.success{
+    color: green;
+    font-size: 12px;
+    text-align: center;
+}
+.failure{
+    color: red;
+    font-size: 12px;
+    text-align: center;
+}
+.cancel{
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    position: absolute;
+}
